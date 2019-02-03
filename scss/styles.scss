@@ -1,0 +1,12 @@
+@import 'type';
+@import 'mod-variables';
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import 'placeholder';
+@import 'mixins';
+@import 'footer';
+@import 'img';
+@import 'buttons';
+@import 'testimonial-cards'
+
+// Til að modify-a variables þarf að setja skjalið $mod-variables 
+// á undan bootstrap importinu ..

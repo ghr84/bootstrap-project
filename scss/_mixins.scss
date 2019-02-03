@@ -1,0 +1,14 @@
+@mixin img-prop ($bckgrnd-img, $height, $bckgrnd-pos, $bckgrnd-size) {
+    background-image: $bckgrnd-img;
+    height: $height;
+    background-position: $bckgrnd-pos;
+    background-size: $bckgrnd-size;
+
+}
+
+
+@mixin icon-stngs($bckgrnd-img) {
+    background-image: $bckgrnd-img;
+    height: 2em;
+    width: 2em;
+}

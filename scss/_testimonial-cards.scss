@@ -1,0 +1,37 @@
+.testimonials {
+
+    .card-1, 
+    .card-2, 
+    .card-3 {
+        flex: 1 0 0%;
+        background-color: #fff;
+        border-radius: 0.2em;
+        margin: 0 2px;
+        transition: 2s;
+
+        p {
+            font-size: $par-size;
+        }
+
+        &:hover {
+            transition: all 1.5s;
+            box-shadow: 0px 4px 9px rgb(216, 216, 216);
+        }
+
+    }
+    .test-1 {
+        background-image: url(../img/test-1.jpg);
+        @extend %test-card-stngs;
+    } 
+    
+    .test-2 {
+        background-image: url(../img/test-2.jpg);
+        @extend %test-card-stngs;  
+    } 
+    
+    .test-3 {
+        background-image: url(../img/test-3.jpg);
+        @extend %test-card-stngs;
+    }    
+
+}

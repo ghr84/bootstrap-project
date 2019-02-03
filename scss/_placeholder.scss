@@ -1,0 +1,22 @@
+
+%secondary-normal {
+    font-family: "Helvetica Neue", "Open Sans Pro", "Arial", sans-serif;
+    font-weight: 300;
+    font-size: 1.15rem
+}
+
+%test-card-stngs {
+    height: 6.6em;
+    width: 6.6em;
+    border-radius: 50%;
+    background-size: contain;    
+    background-repeat: no-repeat;
+}
+
+%btn-stngs {
+    font-family: $secondary-font;  
+    margin-right: 0.5rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    font-size: 1em;
+}

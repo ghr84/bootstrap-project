@@ -1,0 +1,17 @@
+* {
+    font-family: 'Montserrat', sans-serif;    
+}
+
+.font-bold {
+    font-family: $secondary-font;
+}
+
+.font-normal {
+    @extend %secondary-normal;
+}
+
+.bottom-content {
+    p {
+        font-size: $par-size;
+    }
+}

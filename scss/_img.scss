@@ -1,0 +1,43 @@
+// Background images
+
+#bg-img {
+    @include img-prop (url(../img/hero.jpg), 105vh, 50%, cover)   
+}
+
+.bg-img-2 {
+   @include img-prop (url(../img/hero-2.jpg), 100vh, 50% 67%, cover);   
+}
+
+.bg-img-3 {
+    @include img-prop (url(../img/hero-3.jpg), 100vh, 50% 50%, cover);
+}
+
+// Icons 
+
+.icons {
+    width: 10em;
+    margin: 0 auto;
+
+    .facebook {
+        @include icon-stngs(url(../img/facebook.svg));
+    }
+
+    .basket {
+        @include icon-stngs(url(../img/basketball.svg));
+    }
+
+    .be {
+        @include icon-stngs(url(../img/3d.svg));
+    }
+
+    .git {
+        @include icon-stngs(url(../img/github.svg));
+    }
+}
+
+.testimonials {
+    .twitter {
+        @include icon-stngs(url(../img/twitter.svg));
+        margin: 0 auto;
+     }
+}
