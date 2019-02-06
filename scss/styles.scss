@@ -1,5 +1,6 @@
-@import 'type';
+
 @import 'mod-variables';
+@import 'type';
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
 @import 'placeholder';
 @import 'mixins';
@@ -10,3 +11,4 @@
 
 // Til að modify-a variables þarf að setja skjalið $mod-variables 
 // á undan bootstrap importinu ..
+

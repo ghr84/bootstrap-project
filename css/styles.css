@@ -3,6 +3,14 @@
   font-family: "Montserrat", sans-serif;
 }
 
+.font-bold {
+  font-family: "Helvetica Neue", "Open Sans Pro", "Arial", sans-serif;
+}
+
+.bottom-content p {
+  font-size: 1.1rem;
+}
+
 /*!
  * Bootstrap v4.2.1 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
@@ -9538,12 +9546,8 @@ h3 {
   font-size: 1em;
 }
 
-.font-bold {
-  font-family: "Helvetica Neue", "Open Sans Pro", "Arial", sans-serif;
-}
-
-.nav-bar {
-  padding: 0.5em 1em;
+footer .p-size {
+  font-size: 1.1rem;
 }
 
 #bg-img {
@@ -9567,11 +9571,36 @@ h3 {
   background-size: cover;
 }
 
-.container-height {
-  height: 105vh;
+.icons {
+  width: 10em;
+  margin: 0 auto;
 }
-.container-height .h1-size {
-  font-size: 4em;
+.icons .facebook {
+  background-image: url(../img/facebook.svg);
+  height: 2em;
+  width: 2em;
+}
+.icons .basket {
+  background-image: url(../img/basketball.svg);
+  height: 2em;
+  width: 2em;
+}
+.icons .be {
+  background-image: url(../img/3d.svg);
+  height: 2em;
+  width: 2em;
+}
+.icons .git {
+  background-image: url(../img/github.svg);
+  height: 2em;
+  width: 2em;
+}
+
+.testimonials .twitter {
+  background-image: url(../img/twitter.svg);
+  height: 2em;
+  width: 2em;
+  margin: 0 auto;
 }
 
 .testimonials .card-1,
@@ -9602,45 +9631,6 @@ h3 {
 }
 .testimonials .test-3 {
   background-image: url(../img/test-3.jpg);
-}
-.testimonials .twitter {
-  background-image: url(../img/twitter.svg);
-  height: 2em;
-  width: 2em;
-  margin: 0 auto;
-}
-
-.bottom-content p {
-  font-size: 1.125rem;
-}
-
-.icons {
-  width: 10em;
-  margin: 0 auto;
-}
-.icons .facebook {
-  background-image: url(../img/facebook.svg);
-  height: 2em;
-  width: 2em;
-}
-.icons .basket {
-  background-image: url(../img/basketball.svg);
-  height: 2em;
-  width: 2em;
-}
-.icons .be {
-  background-image: url(../img/3d.svg);
-  height: 2em;
-  width: 2em;
-}
-.icons .git {
-  background-image: url(../img/github.svg);
-  height: 2em;
-  width: 2em;
-}
-
-footer .p-size {
-  font-size: 1rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
